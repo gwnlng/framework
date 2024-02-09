@@ -15,7 +15,7 @@
     <description>Vaadin Framework Element API for TestBench</description>
 
     <properties>
-        <testbench.core.version>${vaadin.testbench.version}</testbench.core.version>
+        <testbench.core.version>8.2.5</testbench.core.version>
     </properties>
 
     <dependencies>
