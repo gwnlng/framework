@@ -48,7 +48,7 @@
         <!-- Dependency unpack directory -->
         <dependency.unpack.directory>${project.build.directory}/dependency-unpack</dependency.unpack.directory>
  
-        <jetty.version>9.4.43.v20210629</jetty.version>
+        <jetty.version>9.4.57.v20241219</jetty.version>
 
         <!-- Sonar properties -->
         <sonar.java.source>8</sonar.java.source>
@@ -289,7 +289,7 @@
             <dependency>
                 <groupId>org.eclipse.jgit</groupId>
                 <artifactId>org.eclipse.jgit</artifactId>
-                <version>3.5.1.201410131835-r</version>
+                <version>6.10.1.202505221210-r</version>
             </dependency>
             <dependency>
                 <groupId>com.github.siom79.japicmp</groupId>
@@ -502,7 +502,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
