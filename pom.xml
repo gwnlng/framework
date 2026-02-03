@@ -48,7 +48,7 @@
         <!-- Dependency unpack directory -->
         <dependency.unpack.directory>${project.build.directory}/dependency-unpack</dependency.unpack.directory>
  
-        <jetty.version>9.4.43.v20210629</jetty.version>
+        <jetty.version>9.4.47.v20220610</jetty.version>
 
         <!-- Sonar properties -->
         <sonar.java.source>8</sonar.java.source>
@@ -133,7 +133,7 @@
             <dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
-                <version>1.5</version>
+                <version>1.13</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -223,7 +223,7 @@
             <dependency>
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-validator</artifactId>
-                <version>5.3.6.Final</version>
+                <version>6.0.19.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.jsoup</groupId>
@@ -289,7 +289,7 @@
             <dependency>
                 <groupId>org.eclipse.jgit</groupId>
                 <artifactId>org.eclipse.jgit</artifactId>
-                <version>3.5.1.201410131835-r</version>
+                <version>4.7.0.201704051617-r</version>
             </dependency>
             <dependency>
                 <groupId>com.github.siom79.japicmp</groupId>
@@ -502,7 +502,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
